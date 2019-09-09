@@ -8,6 +8,7 @@ brew "node"
 brew "git"
 brew "wget"
 brew "zsh"
+brew "z"
 
 # Install Casks
 cask "alfred"

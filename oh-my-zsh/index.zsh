@@ -1,6 +1,6 @@
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="monokaipro"
 DEFAULT_USER=$(whoami)
 
 plugins=(docker git yarn z)
