@@ -198,8 +198,18 @@ defaults write com.apple.dock mru-spaces -bool false
 
 # Remove the auto-hiding Dock delay
 defaults write com.apple.dock autohide-delay -float 0
-# Remove the animation when hiding/showing the Dock
-defaults write com.apple.dock autohide-time-modifier -float 0
+
+# Speed up the animation when hiding/showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0.5
+
+# Move Dock to the left side of the screen 
+defaults write com.apple.Dock orientation -string "left"
+
+# Set Dock Magnification
+defaults write com.apple.dock largesize -int 64
+
+# Set Dock Icon Size
+defaults write com.apple.dock tilesize -integer 48
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
