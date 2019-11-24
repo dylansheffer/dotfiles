@@ -147,7 +147,6 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desk
 
 # Show icons for hard drives, servers, and removable media on the desktop
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
@@ -202,7 +201,7 @@ defaults write com.apple.dock autohide-delay -float 0
 # Speed up the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 
-# Move Dock to the left side of the screen 
+# Move Dock to the left side of the screen
 defaults write com.apple.Dock orientation -string "left"
 
 # Set Dock Magnification
